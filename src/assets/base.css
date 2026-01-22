@@ -1,0 +1,37 @@
+/* main.css or inside <style> tag of App.vue */
+body,
+.v-application {
+}
+
+.img-hover-wrapper {
+  overflow: hidden;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.zoom-img {
+  transition: transform 3s ease;
+}
+
+.img-hover-wrapper:hover .zoom-img {
+  transform: scale(1.1);
+}
+
+.zoom-img .v-image__image {
+  transition: transform 3s ease;
+  transform-origin: center center;
+}
+
+.img-hover-wrapper:hover .zoom-img .v-image__image {
+  transform: scale(1.1);
+  /* only the image zooms in */
+}
+
+.scroll-zoom {
+  transition: transform 1s ease;
+}
+
+.scroll-zoom.zoomed {
+  transform: scale(1.1);
+}
