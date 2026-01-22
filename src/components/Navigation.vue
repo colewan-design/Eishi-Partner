@@ -1,8 +1,4 @@
 <style>
-.v-btn {
-    border-radius: 0 !important;
-}
-
 .transparent-blur {
     background-color: rgba(255, 255, 255, 0) !important;
     /* fully transparent */
@@ -114,7 +110,7 @@
 }
 </style>
 <template>
-    <v-app-bar app flat elevation="0" height="auto" :class="[{ scrolled }, 'transparent-blur']">
+    <v-app-bar flat elevation="0" height="auto" :class="[{ scrolled }, 'transparent-blur']">
         <v-container class="pa-0">
             <v-row align="center" justify="space-between" no-gutters>
 
@@ -235,13 +231,10 @@
                         </v-list>
                     </v-sheet>
                 </transition>
-
             </v-row>
         </v-container>
     </v-app-bar>
 </template>
-
-
 
 <script>
 import { mapState, mapActions } from 'pinia';

@@ -95,6 +95,7 @@
 </style>
 <template>
   <div class="hero-container position-relative">
+    <v-img src="/images/Baguio.jpg" cover></v-img>
     <!-- Overlay Text -->
     <div class="overlay d-flex flex-column justify-center align-start text-left">
       <h1 class="animate__animated animate__flash display-1 display-md-2 display-lg-1" style="font-weight:300">
